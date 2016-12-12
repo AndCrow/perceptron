@@ -1,0 +1,20 @@
+{
+  "name": "express-neuron",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node --harmony_default_parameters ./bin/www",
+    "debug": "nodemon --debug --harmony_default_parameters ./bin/www",
+    "debug-brk": "nodemon --debug-brk --harmony_default_parameters ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.14.0",
+    "hbs": "~4.0.1",
+    "morgan": "~1.7.0",
+    "multer": "^1.2.0",
+    "serve-favicon": "~2.3.0"
+  }
+}

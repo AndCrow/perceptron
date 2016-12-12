@@ -1,0 +1,24 @@
+<h1> Binary classifier (gender)</h1>
+
+<form class="form" action="/rec" method="post">
+    <div class="input-group">
+        <label for="">a1 (height)</label>
+        <input type="number" name="a1" min="130" max="230" value="175" placeholder="175">
+    </div>
+    <div class="input-group">
+        <label for="">a2 (weight)</label>
+        <input type="number" name="a2" min="30" max="150" value="60" placeholder="60">
+    </div>
+    <div class="input-group">
+        <label for="">a3 (hair length)</label>
+        <input type="number" name="a3" min="0" max="120" value="15" placeholder="0">
+    </div>
+
+    <button type="submit" name="submit">
+        Recognize
+    </button>
+</form>
+
+<div class="results"></div>
+
+<script type="text/javascript" src="./js/index.js"></script>

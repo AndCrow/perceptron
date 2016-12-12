@@ -1,0 +1,44 @@
+body {
+    padding: 50px;
+    font: 14px Roboto, Helvetica, Arial, sans-serif;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: #00B7FF;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.form {
+    width: 200px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column wrap;
+}
+
+.input-group {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+
+    margin: auto auto 10px;
+}
+
+.results {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.results div {
+    margin-bottom: 10px;
+}
